@@ -1,2 +1,2 @@
 # ARWarpGrad
-Source code for Adaptive Regularized Warped Gradient descent
+Source code for "Adaptive Regularized Warped Gradient descent".
