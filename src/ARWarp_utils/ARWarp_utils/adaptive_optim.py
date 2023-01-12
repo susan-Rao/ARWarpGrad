@@ -92,7 +92,7 @@ class inner_SGD(optim.SGD):
                     if task_lr is None:
                         p = p - group['lr'] * d_p
                     else:
-                        p = p - task_lr * d_p
+                        p = p - (group['lr'] + task_lr) * d_p
 
                     p.retain_grad()
 
